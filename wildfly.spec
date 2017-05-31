@@ -1,3 +1,5 @@
+#This stops the build from trying to repackage all the jar files
+#that are part of wildlfy.
 %global __os_install_post %{nil}
 
 Name: wildfly
@@ -8,8 +10,8 @@ License: GPL
 Group: Java/Middleware
 Source: http://download.jboss.org/wildfly/10.1.0.Final/wildfly-10.1.0.Final.tar.gz
 URL: http://wildfly.org
-Distribution: NoDistro
-Vendor: Tom Duckering
+Distribution: RHEL7
+Vendor: Red Hat
 Packager: Tom Duckering <tom.duckering@gmail.com>
 Requires: java => 1.8.0
 

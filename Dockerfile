@@ -5,5 +5,5 @@ RUN rpmdev-setuptree
 ADD ./build_rpm.sh /build_rpm.sh
 RUN chmod u+x ./build_rpm.sh
 VOLUME /spec_src
-#ENTRYPOINT ['/build_rpm.sh']
+ENTRYPOINT ["/build_rpm.sh"]
 

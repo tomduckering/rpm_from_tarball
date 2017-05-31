@@ -18,3 +18,5 @@ yum-builddep -y SPECS/build.spec
 
 #Install build the binary package
 rpmbuild -bb SPECS/build.spec
+
+cp -aR RPMS /spec_src

@@ -19,7 +19,7 @@ Requires: java => 1.8.0
 WildFly,formerly known as JBoss AS, or simply JBoss, is an application server authored by JBoss, now developed by Red Hat. WildFly is written in Java, and implements the Java Platform, Enterprise Edition (Java EE) specification
 
 %prep
-%setup -n %{name}-%{version}.Final
+%setup -q -n %{name}-%{version}.Final
 
 %build
 #No compilation step
